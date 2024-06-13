@@ -31,14 +31,14 @@ summarylength = 25
 # Site Params
 [params]
   logo = "images/logo.png"
-  logo_footer = "images/logo-footer.png"
+  logo_footer = ""
   favicon_icon = "images/favicon.ico"
   favicon_shortcut_icon = "images/favicon.png"
   custom_stylesheets = []   # [ "scss/my_1.scss", "scss/my_2.scss" ]
   dateFormat = "26 FEB 1994"
   # Meta data
   description = "Roxo Hugo themes | Design Agency Template by StaticMania"
-  author = "StaticMania"
+  author = "France Manoush Sahatdjian"
   # Google Analitycs
   googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below
@@ -102,43 +102,43 @@ summarylength = 25
     params.footer.qr_print = false
     # Footer Contact Info
     [params.footer.contactInfo]
-      title   = "Contact Info"
-      address = "713 Elmwood St.<br>Prior Lake, MN 55372"
-      phone   = "409-896-1444"
-      email   = "info@roxo.co"
+      title   = ""
+      address = ""
+      phone   = ""
+      email   = ""
       # Footer Sitemap
       [params.footer.sitemap]
-        title   = "Sitemap"
+        title   = ""
         [[params.footer.sitemap.link]]
-          name = "About Company"
-          url  = "about"
+          name = ""
+          url  = ""
         [[params.footer.sitemap.link]]
-          name = "Projects"
-          url  = "portfolio"
+          name = ""
+          url  = ""
         [[params.footer.sitemap.link]]
-          name = "Blog"
-          url  = "blog"
+          name = ""
+          url  = ""
         [[params.footer.sitemap.link]]
-          name = "Contact"
-          url  = "contact"
+          name = ""
+          url  = ""
       # Footer Social Media
       [params.footer.social]
-        title   = "Social Media"
+        title   = ""
         [[params.footer.social.link]]
-          name = "Medium"
-          url  = "#"
+          name = ""
+          url  = ""
         [[params.footer.social.link]]
-          name = "Behance"
-          url  = "#"
+          name = ""
+          url  = ""
         [[params.footer.social.link]]
-          name = "Dribbble"
-          url  = "#"
+          name = ""
+          url  = ""
         [[params.footer.social.link]]
-          name = "Instagram"
-          url  = "#"
+          name = ""
+          url  = ""
       # Footer Service
       [params.footer.service]
-        title       = "We help brands:"
-        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+        title       = ""
+        description = ""
       [params.footer.back_to_top]
-        description = "I want to <br> visit again"
+        description = ""

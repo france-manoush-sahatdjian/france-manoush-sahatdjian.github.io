@@ -1,0 +1,47 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-12">
+        <a href="#top" class="site-footer-widget-top">
+          <img src="{{ "images/to-top.svg" | absURL }}" alt="back-to-top">
+          <p>
+	    {{ .Site.Params.footer.back_to_top.description | safeHTML }}
+          </p>
+        </a>
+      </div>
+      <div class="col-12">
+        <div class="site-footer-copyright">
+          <p>© Copyright {{ dateFormat "2006" now }} - All Rights Reserved by France Manoush Sahatdjian </p>
+        </div>
+      </div>
+    </div>
+    {{ if .Site.Params.footer.qr_print }}
+    <div class="row d-none d-print-block">
+      <div class="col col-lg-2">
+        {{ $qrcode := resources.Get "js/qrcode.js" | minify }}
+        <script src="{{ $qrcode.Permalink }}"></script>
+
+        <div id="qrcode">
+          <script type="text/javascript">
+           new QRCode(document.getElementById("qrcode"), {
+             text: "{{ .Page.RelPermalink | absURL }}",
+             width: 128,
+             height: 128,
+           });
+          </script>
+        </div>
+      </div>
+      <div class="col col-md-auto">
+        {{ .Page.RelPermalink | absURL }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</footer>
+
+<!-- {{ $formhandler := resources.Get "js/formhandler.js" | minify }}
+<script src="{{ $formhandler.Permalink }}"></script> -->
+{{ $vendor := resources.Get "js/vendor.js" | minify }}
+<script src="{{ $vendor.Permalink }}"></script>
+{{ $script := resources.Get "js/script.js" | minify }}
+<script src="{{ $script.Permalink }}"></script>

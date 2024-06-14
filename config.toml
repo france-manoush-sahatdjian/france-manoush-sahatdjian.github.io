@@ -30,7 +30,7 @@ summarylength = 25
 
 # Site Params
 [params]
-  logo = "images/logo.png"
+  logo = "images/logo-France_Manoush_Sahatdjian.png"
   logo_footer = ""
   favicon_icon = "images/favicon.ico"
   favicon_shortcut_icon = "images/favicon.png"

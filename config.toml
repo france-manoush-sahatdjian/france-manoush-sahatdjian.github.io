@@ -82,7 +82,7 @@ summarylength = 25
     read_more             = "read more"
 
   [params.portfolio]
-    enable    = true
+    enable    = false
     title     = "OUR RECENT WORKS"
     subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
     view_project = "view project"

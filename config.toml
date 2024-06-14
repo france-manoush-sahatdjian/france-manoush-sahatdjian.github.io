@@ -90,7 +90,7 @@ summarylength = 25
     scroll_down = "scroll down"
 
   [params.call_to_action]
-    enable              = true
+    enable              = false
     background_image    = "images/backgrounds/cta-background.jpg"
     title               = "LET’S WORK TOGETHER"
     primary_button      = "Submit Query"
